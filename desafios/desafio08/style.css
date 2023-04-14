@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(166, 163, 163);
+}
+
+h1 {
+    letter-spacing: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}

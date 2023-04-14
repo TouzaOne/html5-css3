@@ -1,0 +1,17 @@
+body {
+    background-color: green;
+}
+
+h1 {
+    color: rgb(43, 226, 116);
+    letter-spacing: 10px;
+}
+
+p {
+    color: rgb(43, 226, 116);
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}

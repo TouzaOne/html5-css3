@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Fontes em CSS com Google Fonts</title>
+    <style> /* Fontes abaixo importadas direto do Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family= Work+Sans & display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family= Kaushan +Script & family= Work+Sans & display=swap');
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            font-size: 1em; /* Possuem Medidas Absolutas: cm, mm, in(polegadas), px, pt, pc(paica) Obs: pt e pc são medidas da tipografia, ou seja, pra ser usada quando for para imprimir em papel e não em tela. 
+            Medidas Relativas: em(tamanho atual da fonte), ex(relativo à altura x da fonte), rem(relativo ao root que está configurado no body), vw(largura da view-port/tela), vh(altura da view-port/tela), %(relativo à porcentagem) 
+            Os mais usados são: 'px' e 'em' (indicados pela W3C)
+            Geralmente 16px = 1em */ 
+            font-weight: normal; /* Cuidado para não confundir: Weight(peso), Width(largura) e Height(altura) */
+            font-style: italic;
+            background-color: #dbc2f3;
+            
+        }
+        h1 {
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;            
+            font-family: 'Work Sans', sans-serif;
+            /* Podemos simplificar todas essas fonts acima em uma única linha. Pra isso usamos uma SHORTHAND(mãozinha). Veja: shorthand font (sempre nessa ordem): font-style, font-weight, font-size e font-family; Veja:
+            font: italic bolder 3em 'Work Sans', sans-serif; */
+            text-align: center;
+        }
+        h2 {
+            font: italic bolder 3em 'Kaushan Script', cursiva;
+            text-decoration: underline;
+            text-align: center;
+        }
+        p {
+            text-indent: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, tempora. Nam, libero delectus animi totam ad, exercitationem eius illo laudantium, ratione possimus earum a repellat cupiditate error. Animi, nostrum eos?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti inventore obcaecati itaque illo labore ullam id maiores, excepturi at qui tenetur reiciendis similique deleniti explicabo nisi quasi distinctio incidunt numquam.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p style="font: italic bolder 2em 'Kaushan Script', cursiva;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur sed quos modi vel pariatur facilis voluptates ipsa, aspernatur non! Debitis aliquid quas blanditiis iste quo ut ipsum commodi vitae saepe.</p>
+    <p><a href="fonte2.html" target="_self" rel="next">Ir para próxima página</a></p>
+</body>
+</html>

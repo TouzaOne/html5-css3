@@ -1,0 +1,279 @@
+HTML5 e CSS3 by CursoemVideo
+
+
+TESTE DE CONHECIMENTOS: DO BÁSICO AO AVANÇADO
+
+
+MÓDULO 1 – História da Internet
+
+    1. Em qual período Histórico da humanidade a Internet surgiu? R: Durante a Guerra Fria
+    2. A agência militar americana DARPA foi a responsável pelo início dos estudos que deram origem à Internet. Logo no início, a rede teve um nome. Você sabe qual foi? R: ARPANET
+    3. A primeira transmissão registrada na rede foi no ano de _____. A primeira palavra enviada de um computador para outro foi ______. R: 1969 / LOGIN
+    4. A primeira versão da rede que deu origem à Internet interligava quantos computadores? R: 4 computadores
+    5. O primeiro protocolo usado na transmissão de dados entre os controladores tinha o nome de _____. R: NCP
+    6. No dia 1 de Janeiro do ano de ____ o TCP/IP passou a ser o único protocolo aceito pela Internet. Esse dia ficou conhecido como _________. R: 1983 / Flag Day
+    7. O conjunto de protocolos TCP/IP foi criado por um funcionário da DARPA e um pesquisador da universidade de Stanford. São eles, respectivamente: R: Robert Kahn e Vint Cerf
+    8. O cientista inglês Tim Berners-Lee foi o responsável pela criação de três coisas muito importantes para a Internet. Foram elas: R: O protocolo HTTP, a linguagem HTML e o nome WWW
+    9. O primeiro backbone brasileiro surgiu em ____ para acesso acadêmico, mas só foi liberado para empresas em _____. R: 1991 / 1995 
+    10. Atualmente, a Internet Brasileira atinge quantos estados? R: 26 estados, além do Distrito Federal
+
+MÓDULO 1.1 – Como funciona a Internet
+
+
+    1. Atualmente, na maioria das transmissões feitas mundialmente pela Internet, por onde a maior quantidade de sinais vai passar? R: Por baixo d’água, em cabos submarinos
+    2. Os dados que vão trafegar pelas redes e chegar aos computadores vão estar codificados em: R: conjuntos de bits e bytes (0 e 1)
+    3. Quando um sinal está representado em um determinado tipo de onda (codificação) e precisamos transformá-lo em outro tipo, dizemos que estamos realizando uma ______. R: modulação
+    4. Na maioria das vezes que estamos realizando algum tipo de acesso via rede, um lado será o _______ e vai solicitar o uso de um determinado serviço. Quem vai atender à essa solicitação é considerado um _______. R: cliente / servidor
+    5. Todo e qualquer ponto conectado à Internet recebe um identificador, que se chama “endereço IP”. Na versão IPv4, um endereço possui _____ bits, já a versão IPv6 necessita de ______ bits para identificar um ponto. R: 32 bits / 128 bits
+    6. Qual é o serviço (e seu respectivo significado) responsável por resolver os endereços IP dos servidores a partir de um nome? Ele faz com que os usuários não precisem decorar números IP (que inclusive, mudam constantemente). R: DNS – Domain Name System
+    7. Uma URL é composta por vários componentes. Na URL https://www.github.com/gustavoguanabara, por exemplo, são respectivamente o domínio, o protocolo e o caminho os itens apontados em: R: github.com; https; gustavoguanabara
+    8. Quando chegar a hora de construir nossos sites, devemos informar aos nossos clientes que geralmente o domínio tem uma taxa de pagamento ______, enquanto as hospedagens são de pagamento _____ de forma geral. R: anual / mensal
+    9. Os domínios possuem seus Top Level Domains. Vejamos como exemplo os domínios estudonauta.com.br e cursoemvideo.com. No primeiro caso, temos um _____ e no segundo caso, temos um _____. R: ccTLD / GTLD
+    10. Todo bom serviço de hospedagem deve fornecer recursos e serviços valiosos para seus clientes. Entre os itens a seguir, qual é o único que NÃO é oferecido por uma empresa de hospedagem? 
+       a) atendimento de suporte;
+       b) espaço em disco para armazenamento;
+       c) manutenção periódica no PC do cliente;
+       d) backup constante dos arquivos e banco de dados;
+       R: (c) manutenção periódica no PC do cliente
+
+MÓDULO 1.2 – Como funciona HTML e CSS
+
+
+    1. Qual das frases a seguir é a única tecnicamente CORRETA de se falar? R: “Eu programo em linguagem JavaScript”
+    2. A sigla HTML significa: R: HyperText Markup Language
+    3. A sigla CSS significa: R: Cascading Style Sheets
+    4. Correlacione a coluna da esquerda com a da direita, de acordo com o foco de cada uma das tecnologias: R: (1) HTML ? conteúdo; (2) CSS ? estilo; (3) JS ? interatividade
+    5. Qual tag abaixo não tem fechamento? 
+       <title>; <meta>; <strong>; <head>; R: <meta>
+    6. Na tag, <a>, o href é um: R: parâmetro
+    7. Todas as configurações visuais dos elementos HTML são realizadas pela linguagem CSS. Agrupamos todas as declarações CSS de um mesmo elemento dentro de um(a): R: seletor
+    8. Para mudar a cor de um texto em CSS, configuramos qual propriedade? R: color
+    9. Para indicar que um determinado documento HTML está escrito na versão mais recente da linguagem, devemos adicionar a seguinte instrução: R: <!DOCTYPE html>
+    10. Qual é a tag de um documento HTML adicionada pra manter a compatibilidade com os caracteres acentuados, muito comuns na língua Portuguesa? R: <meta charset= ”UTF-8”>
+
+
+MÓDULO 1.3 – Primeiros passos no HTML
+
+
+    1. Qual dos programas a seguir é o único que não pode ser utilizado para escrever códigos em texto sem formatação para HTML + CSS + JS? R: Word
+    2. Qual é a empresa que fabrica o VSCode, o editor que escolhemos para escrever códigos para nosso curso? R: Microsoft
+    3. É possível usar o VSCode em idioma Português do Brasil? R: Sim. Mas não existe suporte nativo para PT-BR, mas existe uma extensão para isso.
+    4. Qual é a opção que devemos habilitar nas configurações para que as instruções muito longas sejam quebradas em várias linhas automaticamente? R: Word Wrap 
+    5. Qual é o caminho correto que devemos seguir para ligar o salvamento automático de arquivos no VSCode? R: Arquivo > Salvar Automaticamente
+    6. Qual é o nome do arquivo principal de um site feito em HTML, que será aberto assim que o visitante solicitar a abertura do site? R: index.html
+    7. Ao criar um arquivo HTML, o VSCode tem um atalho simples para criar o código base para um arquivo desse tipo. Que atalho é esse? R: ! + Enter
+    8. Qual é a tag HTML para criar uma linha horizontal no corpo do navegador? R: <hr>
+    9. Para criar um parágrafo em HTML, usamos a tag: R: <p>
+    10. A tag <title> é adicionada dentro de qual área de um documento HTML? R: <head>
+
+
+MÓDULO 1.4 – Caracteres, parágrafos e quebras de linha em HTML
+
+    1. Os símbolos de < e de > são usados em HTML para delimitar tags. Mas se quisermos mostrá-los no navegador, precisamos representá-los como: R: &lt; e &rt;
+    2. Dentro de um parágrafo no código HTML, se escrevermos uma palavra em cada linha, elas serão apresentadas no navegador de que maneira? R: Uma ao lado da outra
+    3. A qualquer momento do código HTML, se quisermos criar uma quebra de linha, devemos usar qual tag? R: <br>
+    4. A melhor estratégia para criar um espaço relativo a dez quebras de linha em nosso site é: R: Usar configurações de estilo em CSS e especificar o espaçamento todo de uma vez
+    5. Os códigos como &euro; para mostrar o símbolo ¢ nas páginas são conhecidas pelo nome de: R: HTML entities
+    6. Que código utilizaremos para mostrar uma seta apontando para a direita (?) na página? R: &rarr;
+    7. Qual site é recomendado nas aulas para buscar os códigos usados para representar os emojis? R: emojipedia
+    8. Se o código de um emoji é U+1F913, como devemos representá-lo em nosso código HTML? R: &#x1F913;
+    9. A marca br significa: R: Que o idioma está em Português do Brasil
+    10. Qual é o TLD do domínio do site que indicamos para buscar emojis? R: .org 
+
+
+MÓDULO 1.5 – Imagens e Favicons em HTML  
+
+
+    1. Quando você está criando um site ou qualquer outro tipo de conteúdo, deve se preocupar bastante com os direitos de uso de determinada mídia (imagem, som, vídeo, etc). Qual dos itens a seguir melhor define esse assunto? R: Não podemos usar nenhuma mídia sem a prévia autorização do seu criador.
+    2. Qual dos sites a seguir é especializado em disponibilizar apenas imagens para uso liberado, sem direitos autorais? R: Pexels
+    3. Qual foi o formato de imagens criado na década de 80 com o objetivo de reduzir o tamanho dos arquivos das imagens, sem reduzir sua dimensão? R: JPEG
+    4. Qual é o único dos formatos a seguir que possui suporte para imagens com partes transparentes e compactadas? R: PNG
+    5. O que significa a sigla JPEG? R: Joint Photographics Expert Group
+    6. Muita gente fica na dúvida sobre o tamanho da imagem… R: …tente balancear sempre qualidade e tamanho, para que seu site não fique pesado mas não se esqueça da experiência proporcionada ao seu visitante.
+    7. Qual é a tag usada na HTML para inserir imagens como parte do conteúdo do site? R: <img>
+    8. Dentro da tag para inserir a imagem, usamos um parâmetro especial para indicar a localização da imagem a ser carregada. Que parâmetro é esse? R: src 
+    9. Para configurar uma imagem como ícone de favoritos de uma página (favicon), usamos a tag ____ dentro da área _____ do seu site. R: <link> / <head>
+
+
+MÓDULO 1.6 – Hierarquia de Títulos em HTML
+
+
+    1. Normalmente nossos textos são organizados em sessões, e cada uma pode possuir um título. Em HTML5 existe alguma limitação em relação a quantidade de títulos que um documento pode ter? R: não. Um texto pode ter vários títulos, mas apenas um máximo de 6 níveis
+    2. Os títulos podem ser criados em 6 níveis diferentes, usando as tags: R: <h1> até <h6>
+    3. Se estamos em um ponto do texto com título nível 3 e queremos aprofundar esse assunto com um sub-título, devemos usar qual nível? Lembre-se de seguir a recomendação da W3C. R: qualquer nível, de 3 até 6
+    4. O título principal de um determinado documento ou página deverá sempre ser definido com um título de qual nível? R: nível 1
+    5. Muitos dizem que um documento só deve ter um título de nível 1 (principal). Essa crença é uma… R:…lenda. É possível adicionar mais de um título de nível 1, só que devemos nos dedicar a descrevê-lo muito bem para facilitar a indexação por mecanismos de busca.
+    6. O estudo da indexação do conteúdo de um site por meio de mecanismos de busca é conhecido popularmente como: R: SEO – Search Engine Optimization
+    7. Todo documento HTML deverá ter obrigatoriamente algum título de nível 6? R: não. Os títulos de menor nível serão usados apenas se for necessário.
+    8. Quando estamos desenvolvendo um site e o conteúdo ainda não foi definido, uma técnica bastante utilizada é usar blocos de texto genéricos com conteúdo composto por palavras em latim. Esses blocos são mais conhecidos pelo termo: R: Lorem Ipsum
+    9. Para criar um bloco de texto com termos genéricos em latim usando o VSCode, basta digitar a palavra ______ e depois apertar a tecla ______. R: lorem / Enter
+    10. Se não configurarmos o estilo de cada título, os textos dentro da tag de nível 1 terão letras ____, enquanto aqueles dentro da tag de nível 6 terão letras _____. R: maiores / menores 
+
+
+MÓDULO 1.7 – Formatação de textos em HTML
+
+
+    1. A versão anterior da linguagem, a HTML4 era bastante focada no(a) ________ do conteúdo. Já a versão HTML5 já fica mais voltada para o(a) _____ da estrutura desse conteúdo. R: forma / significado
+    2. A HTML5 chegou com a proposta de definir as chamadas ____, onde cada instrução passa a ter um significado, não apenas uma forma. R: Tags semânticas
+    3. Na lista a seguir, qual é a única tag que é focada em significado e não em forma? R: <strong>
+    4. Qual das tags abaixo é a única que ainda permanece ativa? (todas as demais já estão na lista oficial de elementos obsoletos da HTML, disponível no link oficial da W3C) a) <big>; b)<center>; c)<aside>; d)<tt>;
+       R: <aside>
+    5. No lugar da tag <b> para negrito e <i> para itálico, é recomendável usar em HTML5 as novas tags: R: <strong> e <em>
+    6. Em relação ao tamanho das letras de um texto e o uso das tags <big> e <small> em documentos HTML5, assinale a única afirmativa correta: R: a tag <big> deixou de existir e a tag <small> segue funcionando
+    7. Quando for para sublinhar um texto no sentido de chamar a atenção para ele, deixamos de usar o antigo <u> e passamos a usar o novo: R: <ins>
+    8. Para criar um texto sobrescrito (como em x²) usamos a tag ____ e para criar um texto subscrito (como em H2O), usamos a tag ____. R: <sup> / <sub>
+    9. Em HTML5, podemos criar citações utilizando a tag _____, incluindo o parâmetro ____ para indicar o link para o conteúdo original da citação. R: <blockquote> / cite
+    10. Para inverter uma palavra ou frase, devemos usar a tag ____ com o parâmetro dir configurado para o valor: R: <bdo> / rtl
+
+
+MÓDULO 1.8 – Listas em HTML
+
+
+    1. Em HTML5, temos vários tipos de listas. Qual dos itens a seguir não é um tipo de lista suportado pela linguagem? 
+       a) lista ordenada; b) lista não ordenada; c) lista semi-ordenada; d) lista de definição;
+       R: lista semi-ordenada
+    2. Na construção das listas ordenadas e nas não ordenadas, o uso de uma das tags se repete nos dois casos. Que tag é essa? R: <li>
+    3. Para criar uma lista ordenada, devemos limitar todos os seus itens dentro de um par único de tags: R: <ol> e </ol>
+    4. Segundo as novas normas da W3C, qual das tags de lista a seguir é a única que possui fechamento opcional? R: <li>
+    5. Em listas ordenadas, podemos usar o parâmetro ____ para modificar o formato da contagem e o parâmetro ____ para mudar o número inicial da contagem. R: type / start
+    6. Ao personalizar a numeração de uma lista ordenada, podemos indicar vários tipos de contagem. Qual das opções a seguir é a única que não pode ser usada para essa personalização? a) 1; b) A; c)I; d)X;
+       R: d) X
+    7. Podemos personalizar as listas não ordenadas, configurando o parâmetro type da tag <ul> com alguns valores especiais. Qual dos elementos a seguir é o único aceito para modificar o marcador padrão dos itens? a) star; b) square; c) rectangle; d) triangle;
+       R: square
+    8. Todos os elementos de uma lista de definições devem estar limitados entre o par de tags: R: <dt> e </dt>
+    9. A tag <dt> em uma lista de definição tem o significado de: R: definition term
+    10. A tag <dd> em uma lista de definição tem o significado de: R: definition description
+
+
+MÓDULO 1.9 – Links em HTML
+
+
+    1. Toda vez que estamos em um site e clicamos em uma área sensível que nos leva a outro ponto ou a outro documento, estamos interagindo com um: R: Hyperlink
+    2. Para criarmos links em nosso site, utilizaremos a tag: R: <a>
+    3. Dentro da tag de âncora, o parâmetro ____ serve para indicar a URL completa para onde o fluxo será desviado. R: href
+    4. Também é possível indicar o idioma principal de um documento configurado em uma âncora usando o parâmetro: R: hreflang
+    5. A tag de âncora também suporta o parâmetro target, onde podemos colocar vários valores, exceto: R: _external
+    6. A maneira mais recomendada de indicar um link externo é configurando o seguinte par de parâmetro e valor: R: rel = “external” 
+    7. Ao criar links que levam a documentos que estão em pastas imediatamente superiores na hierarquia do site, devemos adicionar ao link os símbolos: R: ../
+    8. Ao criar um link para download, recomenda-se configurar os parâmetros adicionais: R: download e type
+    9. O parâmetro type de um link que vai servir para baixar um arquivo PDF deve estar configurado com o valor: R: application/pdf
+    10. Os valores application/zip, audio/aac e font/ttf são exemplos de: R: media types
+
+
+MÓDULO 1.10 – Imagens dinâmicas, áudios e vídeos em HTML
+
+
+    1. Qual das afirmações a seguir é a mais correta em relação ao cuidado que devemos ter em relação ao uso de imagens em sites? R: Use sempre a imagem com qualidade e resolução balanceadas
+    2. Deixar um site ‘pesado’ com imagens grandes pode gerar: R: Diminuição na taxa de retenção e possível penalização em mecanismos de busca
+    3. Para usar imagens dinâmicas em nossos sites, devemos aprender a usar três tags, que são: R: <picture>, <source> e <img>
+    4. A tag <source> possui o parâmetro ____ para configurar as dimensões da mídia, o ____ para indicar o formato da mídia e o parâmetro ____ para indicar o arquivo de destino. A única opção que mostra os parâmetros que preenchem as colunas na ordem correta é: R: media, type e srcset
+    5. Podemos adicionar arquivos de áudio reproduzíveis às nossas páginas usando a tag: R: <audio>
+    6. Qual dos valores a seguir é o único que não é um parâmetro da tag de áudio? a) controls; b) autoplay; c) player; d) loop; 
+       R: c) player;
+    7. Quando inserimos um áudio no site, qual é o comportamento padrão do navegador em relação à carga do conteúdo? R: Apenas os metadados do arquivo (informações básicas sobre o arquivo) serão carregados automaticamente
+    8. Para carregar vídeos hospedados localmente, podemos usar a tag HTML: R: <video>
+    9. Quais são os formatos de vídeo que devemos considerar para manter a compatibilidade com a maioria dos navegadores? R: .mp4 .m4v .webm .ogv
+    10. Para inserir vídeos do YouTube no nosso site, usamos a tag: R: <iframe>
+
+
+MÓDULO 1.11 – Trabalhando com estilos (CSS) em HTML
+    1. Ao configurar os estilos com a técnica inline, as propriedades CSS são colocadas em que local? R: Dentro da própria tag HTML, em um parâmetro chamado style
+    2. O que aconteceu com configurações como <body bgcolor=”blue”> e <fontcolor=”yellow”> que eram usadas em sites mais antigos? R: Não funcionam mais de forma alguma
+    3. Qual das opções a seguir é a única que configura corretamente a cor da letra de um título usando CSS inline? R: <h1 style=”color:blue”>Título</h1>
+    4. Para usar a técnica de estilos internos, a tag <style> deve estar em que local? R: Dentro da área <head> do seu documento HTML
+    5. Em um mesmo documento HTML, utilizamos as técnicas de CSS interno e CSS inline para mudar a cor de um elemento e acabamos usando duas cores diferentes. Quais configurações vão prevalecer na versão final do site? R: As configurações duplicadas feitas nas CSS inline vão prevalecer
+    6. Para utilizar estilos CSS externos, devemos usar a tag ____ no documento HTML para fazer o carregamento: R: <link>
+    7. A tag de carga de estilos externos deve estar localizada em que local do documento HTML? R: Deve estar dentro da área <head> do documento
+    8. Para que os arquivos externos em CSS tenham compatibilidade com caracteres acentuados, devemos adicionar a regra: R: @charset “UTF-8”;
+    9. No fim das contas, vamos dar preferência à técnica de ____ sempre que for possível e vamos tentar evitar a técnica de ____ em nossos sites. A opção que apresenta os termos que completam as lacunas na ordem correta é: R: CSS externo / CSS inline
+
+MÓDULO 1.12 – Trabalhando com cores (CSS) em HTML
+
+
+    1. Segundo levantamentos relacionados à psicologia das cores, qual é a cor com a maior taxa de aceitação e menor rejeição que existe? R: Azul
+    2. De acordo com a tabela apresentada neste capítulo, qual é a cor que está associada a criatividade, poder, sabedoria e mistério? R: Roxo
+    3. Qual cor deve ser evitada em sites de alimentação ou relacionados com comida, pois pode induzir a uma redução no apetite? R: Azul
+    4. Ao construir um site, devemos definir qual será ____ utilizada, pois isso vai criar a sensação de que tudo faz sentido visualmente e o usuário vai ter a sensação de harmonia, mesmo sem saber do que se trata. R: A paleta de cores
+    5. Qual das cores a seguir é a única que não está presente explicitamente no círculo cromático? R: amarelo-arroxeado
+    6. Qual dos itens a seguir é o único que não é considerado como uma cor quente? a)roxo; b)vermelho; c)laranja; d) amarelo; 
+       R: roxo
+    7. Enquanto as cores _____ são aquelas que estão no extremo oposto do círculo cromático e por isso possuem o maior contraste entre si, as cores _____ são aquelas que estão localizadas imediatamente aos lados da cor considerada (vizinhas). R: análogas / complementares
+    8. Qual dos itens abaixo é o único que não é uma função CSS para a representação de cores? a) rgbl(); b) rgba(); c) hsl(); d) hsla();
+       R: a) rgbl();
+    9. Considerando a representação de cor hsl(179, 100%, 34%), os três valores indicados são respectivamente quantidades para: R: Matiz, saturação e luminância;
+    10. Para criar um efeito degradê em CSS, podemos usar as seguintes funções: R: linear-gradient / radial-gradient
+
+
+MÓDULO 1.13 – Trabalhando com fontes (CSS) em HTML
+
+
+    1. A tipografia é uma arte antiga cujo nome vem da junção de duas palavras gregas. Marque a opção que descreve corretamente cada um destes termos. R: Týpos que significa IMPRESSÃO e graphía que significa ESCRITA
+    2. A tipografia se inicia em 1450, com o inventor alemão chamado: R: Johannes Gutenberg
+    3. Para os estudos em tipografia, uma letra também pode ser chamada de: R: Glifo
+    4. Qual das frases a seguir melhor define o que é uma família tipográfica? R: É o conjunto de caracteres que possuem as mesmas características anatômicas, independente das suas variações.
+    5. Em relação à anatomia do tipo, temos a medida da altura das letras minúsculas de uma determinada fonte, que chamamos de: R: Altura-x
+    6. As letras g, j e Q possuem uma pequena curva que geralmente é representada na área da descendente. Qual é o nome que se dá a essa curva nas letras indicadas? R: cauda
+    7. As fontes ____ são aquelas com bastante efeitos visuais, enfeitadas e até mesmo curiosas. Também são chamadas de fontes comemorativas. R: display
+    8. Em CSS, para definir que tipo de fonte será utilizado a um determinado elemento HTML, usamos a propriedade: R: font-family
+    9. Na maioria dos casos, o tamanho padrão de uma fonte é de ____ px, o que equivale a ____ em medida referencial. R: 16px / 1em
+    10. No exemplo de uso da shorthand font: italic bold 1em Arial, Helvetica, sans-serif; quais são as propriedades que estão sendo definidas, na ordem? R: font-style, font-weight, font-size, font-family
+
+
+MÓDULO 1.14 – Trabalhando com seletores personalizados (CSS) em HTML
+
+
+    1. Em um mesmo documento HTML, vários elementos podem possuir o mesmo ____ para criarmos formatações em grupo com CSS, mas só podemos ter um elemento com um ____ único para criar formatações individuais. R: class / id
+    2. Toda configuração de folhas de estilo que fizermos para um determinado id, deve ser feita iniciando pelo símbolo ____ antes do identificador. Já as configurações para um determinado class serão feitas usando o símbolo ____ antes do nome da classe. R: # e .
+    3. Como já sabemos, existem três técnicas para inserir configurações CSS a um código HTML5: inline, local e externa. Se uma página usa as três técnicas ao mesmo tempo e cria uma configuração duplicada para uma determinada propriedade, qual delas vai se sobrepor às demais? R: CSS inline
+    4. Uma pseudo-classe CSS é uma palavra-chave adicionada às declarações de um seletor após um sinal de: R: dois pontos(:)
+    5. Qual dos itens a seguir é o único que não se refere a uma pseudo-classe CSS? a) hover; b) before; c) checked; d) empty;
+       R: b) before;
+    6. Para realizar configurações de formatação em um pedaço específico do elemento HTML referenciado (a primeira letra de um texto, por exemplo), devemos aprender a criar seletores para _____. R: pseudo-elementos
+    7. Qual dos itens a seguir é o único que não se refere a um pseudo-elemento CSS? a) first-line; b) first-letter; c) active; d) before;
+       R: c) active;
+    8. Considere que temos o seguinte link em uma mesma página: <a href=”pag002.html” class=”link”>Página 2</a>. Qual será o nome do seletor para configurarmos o que vai acontecer quando o usuário mover o cursor do mouse por cima do link? R: a.link:hover
+    9. Se quisermos que todos os links de uma página tenham um símbolo » depois do texto, devemos usar a formatação: R: a::after {content: ‘»’;}
+    10. Podemos definir seletores com o símbolo de maior que (>) para indicar o que chamamos de: R: direct children
+
+
+MÓDULO 1.15 – Trabalhando com Modelos de Caixas (CSS) em HTML
+
+
+    1. A grande maioria dos elementos HTML são considerados como contêineres que podem guardar conteúdos ou outros contêineres. Este conceito é conhecido pelo termo em Inglês: R: Box Model
+    2. Todo contêiner possui uma propriedade chamada box-size, que é composto por duas medidas: largura e altura, representados respectivamente por: R: width e height
+    3. Todos os elementos HTML que são caixas podem ter um espaço interno, que fica entre a borda e o conteúdo e se chama ____. Eles também podem ter um espaço externo, que fica além da borda e se chama ____. Qual das opções abaixo é a única que preenche as lacunas na ordem correta? R: padding / margin
+    4. A shorthand border agrupa as seguintes propriedades, nesta ordem: R: border-width + border-style + border-color
+    5. A shorthand padding, quando especificada com quatro parâmetros, configura as seguintes propriedades, na ordem: R: padding-top, padding-right, padding-bottom, padding-left
+    6. De acordo com o comportamento de uma caixa, ela pode ser classificada como: R: Box-Level ou Inline-Level
+    7. Qual dos elementos a seguir é o único que não é considerado grouping tag? a) <aside>; b) <nav>; c) <head>; d) <footer>;
+       R: c) <head>;
+    8. “Delimita um conteúdo periférico e complementar ao conteúdo principal de um artigo ou seção”. Esta descrição se encaixa melhor no conceito de qual elemento HTML5? R: aside;
+    9. Para aplicar sombra em um elemento HTML5 exibido como uma caixa, usamos qual propriedade? R: box-shadow
+    10. Para arredondar os vértices de um elemento HTML5 exibido como uma caixa, usamos qual propriedade? R: border-radius
+
+
+MÓDULO 1.16 – Preparativos para a construção de um site em HTML5
+
+
+    1. Antes de começar a construir um site, uma das técnicas é desenhar a sua estrutura em forma de grades, mais conhecida como: R: wireframe
+    2. Para que um site seja corretamente exibido em vários tipos de dispositivos com telas de tamanhos diferentes, devemos nos preocupar bastante em torná-lo: R: responsivo
+    3. Para que a largura de uma caixa torne-se adaptável a vários tamanhos de tela, utilizaremos as propriedades: R: min-width e max-width
+    4. Para declarar variáveis em CSS, devemos criar uma pseudo-classe especial dentro do documento CSS atual. Qual é o nome dessa pseudo-classe? R: :root
+    5. Toda variável declarada em um documento CSS deve obrigatoriamente começar com: R: dois traços --
+    6. Um documento CSS que possui variáveis definidas pode fazer referência a elas utilizando a função: R: var()
+    7. Os navegadores (user agents) aplicam configurações padrão para todo e qualquer elemento HTML5 que é exibido como uma caixa. Para alterar as definições dessas configurações default, usamos um seletor CSS especial que é o: R: * {}
+    8. Para aplicar sombras às letras que estão dentro de uma caixa, podemos usar a propriedade: R: text-shadow
+    9. Ao usar listas do tipo <ul> em HTML5, só conseguimos definir marcadores do tipo circle, square ou disc. Porém, podemos personalizar o símbolo de cada elemento via CSS, usando a propriedade: R: list-style-type:
+    10. Qual dos valores a seguir é o único que não será aceito para configurar a propriedade position em CSS? a) static; b) absolute; c) relative; d) fullsize;
+       R: d) fullsize;
+
+
+
+       
+	
+       
+
+
+
+
+

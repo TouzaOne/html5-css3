@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Ampliação de Tela</title>
+</head>
+<body>
+    <h1><em>Imagem Flexível</em></h1>
+    <hr>
+    <p>Você está vendo a imagem completa? Não!! Então experimente ampliar a sua janela para ter uma melhor experiência...&#x1F92F;</p> 
+    <hr>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/lua-fase1.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/lua-fase2.png" type="image/png">
+        <img src="imagens/lua-fase3.jpg" alt="Imagem Flexível">
+    </picture>
+</body>
+</html>
