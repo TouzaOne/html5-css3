@@ -13,6 +13,7 @@
 
         table {
             width: 400px;
+            height: 350px;
             border-collapse: collapse;
         }
 
@@ -22,8 +23,13 @@
 
         td {
             border: 1px solid black;
-            padding: 8px;
-            text-align: center;
+            padding: 3px;
+            text-align: center; /* Alinhamento Horizontal */
+            vertical-align: bottom; /* Alinhamento Vertical */
+        }
+
+        td.numero {
+            text-align: right;
         }
 
         td.dado {
@@ -51,11 +57,11 @@
         </tr>
         <tr class="linha"> <!-- Segunda Linha -->
             <td>A2</td>
-            <td>B2</td>
+            <td class="numero">B2</td>
             <td>C2</td>
         </tr>
         <tr> <!-- Terceira Linha -->
-            <td>A3</td>
+            <td class="numero">A3</td>
             <td>B3</td>
             <td>C3</td>
         </tr>
