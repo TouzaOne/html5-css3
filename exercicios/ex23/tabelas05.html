@@ -62,127 +62,195 @@
             background-color: lightgrey;
             font-size: 1.5em;
         }
+
+        div.container {
+            display: inline-table;
+        }
+
+        div.conteudo {
+            display: inline-table;
+        }
         
     </style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
-    <table>
-        <colgroup>
-            <col class="c1">
-            <col class="c2">
-            <col class="c3">
-            <col class="c4">
-        </colgroup>
-        <caption>Cadastro</caption>
-        <thead>
-            <tr>
-                <th scope="col">Nome</th>
-                <th scope="col">Sexo</th>
-                <th scope="col">Idade</th>
-                <th scope="col">Profissão</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Ana Maria</td>
-                <td>F</td>
-                <td>25</td>
-                <td>Jornalista</td>
-            </tr>
-            <tr>
-                <td>Cláudio</td>
-                <td>M</td>
-                <td>28</td>
-                <td>Programador</td>
-            </tr>
-            <tr>
-                <td>Gustavo</td>
-                <td>M</td>
-                <td>42</td>
-                <td>Professor</td>
-            </tr>
-            <tr>
-                <td>Hélio</td>
-                <td>M</td>
-                <td>19</td>
-                <td>Vendedor</td>
-            </tr>
-            <tr>
-                <td>Maria</td>
-                <td>F</td>
-                <td>39</td>
-                <td>Médica</td>
-            </tr>
-            <tr>
-                <td>João</td>
-                <td>M</td>
-                <td>22</td>
-                <td>Nutricionista</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col class="c1">
+                <col class="c2">
+                <col class="c3">
+                <col class="c4">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Profissão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana Maria</td>
+                    <td>F</td>
+                    <td>25</td>
+                    <td>Jornalista</td>
+                </tr>
+                <tr>
+                    <td>Cláudio</td>
+                    <td>M</td>
+                    <td>28</td>
+                    <td>Programador</td>
+                </tr>
+                <tr>
+                    <td>Gustavo</td>
+                    <td>M</td>
+                    <td>42</td>
+                    <td>Professor</td>
+                </tr>
+                <tr>
+                    <td>Hélio</td>
+                    <td>M</td>
+                    <td>19</td>
+                    <td>Vendedor</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>F</td>
+                    <td>39</td>
+                    <td>Médica</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>M</td>
+                    <td>22</td>
+                    <td>Nutricionista</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <table>
-        <colgroup>
-            <col class="c1">
-            <col class="cgrupo" span="2">
-            <col class="c4">
-        </colgroup>
-        <caption>Cadastro</caption>
-        <thead>
-            <tr>
-                <th scope="col">Nome</th>
-                <th scope="col">Sexo</th>
-                <th scope="col">Idade</th>
-                <th scope="col">Profissão</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Ana Maria</td>
-                <td>F</td>
-                <td>25</td>
-                <td>Jornalista</td>
-            </tr>
-            <tr>
-                <td>Cláudio</td>
-                <td>M</td>
-                <td>28</td>
-                <td>Programador</td>
-            </tr>
-            <tr>
-                <td>Gustavo</td>
-                <td>M</td>
-                <td>42</td>
-                <td>Professor</td>
-            </tr>
-            <tr>
-                <td>Hélio</td>
-                <td>M</td>
-                <td>19</td>
-                <td>Vendedor</td>
-            </tr>
-            <tr>
-                <td>Maria</td>
-                <td>F</td>
-                <td>39</td>
-                <td>Médica</td>
-            </tr>
-            <tr>
-                <td>João</td>
-                <td>M</td>
-                <td>22</td>
-                <td>Nutricionista</td>
-            </tr>
-        </tbody>
-    </table>
-    <div>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col class="c1">
+                <col class="cgrupo" span="2">
+                <col class="c4">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Profissão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana Maria</td>
+                    <td>F</td>
+                    <td>25</td>
+                    <td>Jornalista</td>
+                </tr>
+                <tr>
+                    <td>Cláudio</td>
+                    <td>M</td>
+                    <td>28</td>
+                    <td>Programador</td>
+                </tr>
+                <tr>
+                    <td>Gustavo</td>
+                    <td>M</td>
+                    <td>42</td>
+                    <td>Professor</td>
+                </tr>
+                <tr>
+                    <td>Hélio</td>
+                    <td>M</td>
+                    <td>19</td>
+                    <td>Vendedor</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>F</td>
+                    <td>39</td>
+                    <td>Médica</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>M</td>
+                    <td>22</td>
+                    <td>Nutricionista</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="conteudo">
         <table>
             <colgroup>
             <col class="roxo">
             <col class="verde">
             <col class="roxo">
+            <col class="verde">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Profissão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana Maria</td>
+                    <td>F</td>
+                    <td>25</td>
+                    <td>Jornalista</td>
+                </tr>
+                <tr>
+                    <td>Cláudio</td>
+                    <td>M</td>
+                    <td>28</td>
+                    <td>Programador</td>
+                </tr>
+                <tr>
+                    <td>Gustavo</td>
+                    <td>M</td>
+                    <td>42</td>
+                    <td>Professor</td>
+                </tr>
+                <tr>
+                    <td>Hélio</td>
+                    <td>M</td>
+                    <td>19</td>
+                    <td>Vendedor</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>F</td>
+                    <td>39</td>
+                    <td>Médica</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>M</td>
+                    <td>22</td>
+                    <td>Nutricionista</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="conteudo">
+        <table>
+            <colgroup>
+            <col class="roxo" span="3">
             <col class="verde">
             </colgroup>
             <caption>Cadastro</caption>
