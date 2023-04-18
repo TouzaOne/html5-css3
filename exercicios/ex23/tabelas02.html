@@ -27,11 +27,19 @@
             height: auto;
             border-collapse: collapse;
             text-align: center;
+            position: relative;
         }
 
         thead, tfoot {
             background-color: rgba(128, 128, 128, 0.521);
             color: black;            
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(128, 128, 128);
+
         }
 
         td, th {
