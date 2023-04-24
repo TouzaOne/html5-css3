@@ -13,20 +13,67 @@
     }
 
     main {
-        background-image: linear-gradient(to bottom, rgb(117, 128, 0), transparent);
+        background-color: rgba(211, 211, 211, 0.658);
         color: white;
         border: 1px solid black;
         border-radius: 10px;
         padding: 10px;
+        margin: 10px 20px;
+    }
+
+    h1 {
+        text-align: center;        
+        color: black;
     }
 
     div {
         width: 300px;
+        height: 100px;
         border: 1px solid black;
         border-radius: 5px;
-        padding: 10px;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 0px 10px;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.5em;
+        font-size: 1.05em;
+        text-align: center;
+        display: inline-block;
+    } 
+    
+    div > p {
+        display: none;
+    }
+
+    div.column1:hover {
+        background-color: lightcoral;
+        color: black;
+    }
+
+    div.column2:hover {
+        background-color: antiquewhite;
+        color: black;
+    }
+
+    div.column3:hover {
+        background-color: aquamarine;
+        color: black;
+    }
+
+    div.column1:hover > p {        
+        background-color: yellowgreen;
+        color: black;
+        display: block;        
+    }
+
+    div.column2:hover > p {
+        background-color: yellowgreen;
+        color: black;
+        display: block;        
+    }
+
+    div.column3:hover > p {
+        background-color: lightcoral;
+        color: black;
+        display: block;        
     }
 </style>
 <body>
@@ -34,101 +81,101 @@
 
     </header>
     <main>
-        <h1>Learning English with conversation phases</h1>
-        <div>
-            <p>She is going to call the doctor.</p>
+        <h1>Learning English with Conversation Phases</h1>
+        <div class="column1">
+            She is going to call the doctor.
             <p>Ela vai ligar para o médico.</p>
         </div>
-        <div>
-            <p>Put the rubbish in the bin.</p>
+        <div class="column2">
+            Put the rubbish in the bin.
             <p>Coloque o lixo na lixeira.</p>
         </div>
-        <div>
-            <p>The bus is running late.</p>
+        <div class="column3">
+            The bus is running late.
             <p>O ônibus está atrasado.</p>
         </div>
-        <div>
-            <p>What is it you like about England?</p>            
+        <div class="column1">
+            What is it you like about England?            
             <p>O que você gosta na Inglaterra?</p>
         </div>
-        <div>
-            <p>When are you coming to visit me?</p>
+        <div class="column2">
+            When are you coming to visit me?
             <p>Quando você vem me visitar?</p>
         </div>
-        <div>
-            <p>What's that boy's name?</p>
+        <div class="column3">
+            What's that boy's name?
             <p>Qual é o nome daquele menino?</p>            
         </div>
-        <div>
-            <p>He walked out of the room.</p>
+        <div class="column1">
+            He walked out of the room.
             <p>Ele saiu da sala.</p>
         </div>
-        <div>
-            <p>Rome wasn't built in a day.</p>
+        <div class="column2">
+            Rome wasn't built in a day.
             <p>Roma não foi construída em um dia.</p>
         </div>
-        <div>
-            <p>What time did he wake up?</p>
+        <div class="column3">
+            What time did he wake up?
             <p>Que horas ele acordou?</p>
         </div>
-        <div>
-            <p>Do you have plans for this evening?</p>
+        <div class="column1">
+            Do you have plans for this evening?
             <p>Você têm planos para esta noite?</p>
         </div>
-        <div>
-            <p>Put the shoe on the right foot.</p>
+        <div class="column2">
+            Put the shoe on the right foot.
             <p>Coloque o sapato no pé direito.</p>
         </div>
-        <div>
-            <p>What are you doing tomorrow?</p>
+        <div class="column3">
+            What are you doing tomorrow?
             <p>O que você vai fazer amanhã?</p>
         </div>
-        <div>
-            <p>Would you like to go shopping with me?</p>
+        <div class="column1">
+            Would you like to go shopping with me?
             <p>Você gostaria de ir às compras comigo?</p>
         </div>
-        <div>
-            <p>As greedy as a pig.</p>
+        <div class="column2">
+            As greedy as a pig.
             <p>Tão ganancioso quanto um porco.</p>
         </div>
-        <div>
-            <p>What time shall I pick you up?</p>
+        <div class="column3">
+            What time shall I pick you up?
             <p>A que horas devo buscá-lo?</p>
         </div>
-        <div>
-            <p>He hurt his leg playing football.</p>
+        <div class="column1">
+            He hurt his leg playing football.
             <p>Ele machucou a perna jogando futebol.</p>
         </div>
-        <div>
-            <p>They went to the beach for the day.</p>
+        <div class="column2">
+            They went to the beach for the day.
             <p>Eles foram passar o dia na praia.</p>
         </div>
-        <div>
-            <p>I don't know when I'll be back.</p>
+        <div class="column3">
+            I don't know when I'll be back.
             <p>Não sei quando voltarei.</p>
         </div>
-        <div>
-            <p>The dog stared at the postman.</p>
+        <div class="column1">
+            The dog stared at the postman.
             <p>O cachorro olhou para o carteiro.</p>
         </div>
-        <div>
-            <p>I would like to go on a cruise one day.</p>
+        <div class="column2">
+            I would like to go on a cruise one day.
             <p>Eu gostaria de fazer um cruzeiro um dia.</p>
         </div>
-        <div>
-            <p>I have got work all day tomorrow.</p>
+        <div class="column3">
+            I have got work all day tomorrow.
             <p>Tenho trabalho o dia todo amanhã.</p>
         </div>
-        <div>
-            <p>The gym is always busy at this time.</p>
+        <div class="column1">
+            The gym is always busy at this time.
             <p>A academia está sempre ocupada neste horário.</p>
         </div>
-        <div>
-            <p>I'm getting a train from London.</p>
+        <div class="column2">
+            I'm getting a train from London.
             <p>Estou pegando um trem de Londres.</p>
         </div>
-        <div>
-            <p>Would you like coffee or tea?</p>
+        <div class="column3">
+            Would you like coffee or tea?
             <p>Você gostaria de café ou chá?</p>
         </div>            
         
