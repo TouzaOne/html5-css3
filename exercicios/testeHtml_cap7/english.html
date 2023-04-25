@@ -122,15 +122,12 @@
         <div class="column1">
             <h2>She is going to call the doctor.</h2>
             <p>Ela vai ligar para o médico.</p>
-            <img src="imagens/pngegg.png" id="button" alt="Botão de áudio da frase">
+            <img src="imagens/pngegg.png" id="button" onclick="play()" type="button" onclick="pause()" type="button" alt="Botão de áudio da frase">
             <audio controls id="music">
                 <source src="audio/Áudio-do-WhatsApp-de-2023-04-24-à_s_-22.12.23.waptt.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
-                </audio>
-                <p>Click the buttons to play or pause the music.</p>
-                <button onclick="play()" type="button">Play </button>
-                <button onclick="pause()" type="button">Pause</button>
-                <script>
+            </audio>                
+            <script>
                 var myMusic= document.getElementById("music");
                 function play() {
                 myMusic.play();
@@ -138,7 +135,7 @@
                 function pause() {
                 myMusic.pause();
                 }
-                </script>
+            </script>
         </div>
         <div class="column2">
             <h2>Put the rubbish in the bin.</h2>
