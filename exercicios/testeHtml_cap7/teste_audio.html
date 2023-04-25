@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando áudio</title>
+</head>
+<style>
+    body {
+        height: 100vh;
+        background-color: blueviolet;
+        background-image: url('imagens/wallpaper002.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /* Podemos usar aqui uma SHORTHAND: 1º color; 2º image; 3º position; 4º repeat; 5º [*size*]; 6º attachment;
+        Ficando uma observação em SIZE, pois até o momento não estava funcionando nos navegadores testados!!
+        */
+    }
+
+    header > h1 {
+        min-width: 300px;
+        max-width: 1380px;
+        text-align: center;
+        text-decoration: underline;
+        background-color: rgba(211, 211, 211, 0.658);        
+        color: rgb(240, 30, 15);
+        border: 1px solid rgba(110, 108, 108, 0.966);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px 350px;
+    }
+
+    main {
+        min-width: 300px;
+        max-width: 1380px;
+        background-color: rgba(211, 211, 211, 0.658);
+        color: rgb(55, 38, 211);
+        border: 1px solid rgba(110, 108, 108, 0.966);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 50px;
+    }    
+
+    div {
+        width: 300px;
+        height: 150px;
+        border: 1px solid rgba(141, 137, 137, 0.548);
+        border-radius: 5px;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 0px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-align: center;
+        display: inline-block;
+    } 
+    
+    div > p {
+        display: none;
+    }
+
+    div.column1:hover {
+        background-color: lightcoral;
+        color: black;
+        font-size: 1em;
+    }
+
+    div.column1:hover > p {        
+        background-color: yellowgreen;
+        color: black;
+        display: block;
+        font-size: 1em;        
+    }
+</style>
+<body>
+    <header>
+        <h1>Learning English with Conversation Phrases</h1>
+    </header>
+    <main>
+        <div class="column1">
+            <h2>She is going to call the doctor.</h2>
+            <p>Ela vai ligar para o médico.</p>
+            <img src="imagens/pngegg-play.png" id="button" onclick="play()" type="button" onclick="pause()" type="button" alt="Botão de áudio da frase">
+            <audio preload="none" id="music">
+                <source src="audio/Áudio-do-WhatsApp-de-2023-04-24-à_s_-22.12.23.waptt.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>                
+            <script>
+                var myMusic= document.getElementById("music");
+                function play() {
+                myMusic.play();
+                document.getElementById("button").src = "imagens/pngegg-pause.png";
+                
+                
+                    function pause() {
+                    myMusic.pause();
+                    document.getElementById("button").src = "imagens/pngegg-play.png";
+                    }
+                }
+            </script>
+        </div>
+    </main>
+</body>
+</html>
