@@ -19,7 +19,7 @@
         /* Podemos usar aqui uma SHORTHAND: 1º color; 2º image; 3º position; 4º repeat; 5º [*size*]; 6º attachment;
         Ficando uma observação em SIZE, pois até o momento não estava funcionando nos navegadores testados!!
         */
-    }
+    }    
 
     header > h1 {
         min-width: 300px;
@@ -32,7 +32,7 @@
         border-radius: 10px;
         padding: 10px;
         margin: auto;
-    }
+    }    
 
     main {
         min-width: 300px;
@@ -101,6 +101,11 @@
         font-size: 1em;        
     }
 
+    section > a {
+        text-align: right;
+        background-position: right bottom;        
+    }
+
     footer {
         background-color: rgba(211, 211, 211, 0.945);
         color: rgb(247, 30, 30);
@@ -114,8 +119,7 @@
 </style>
 <body>
     <header>
-        <h1>Learning English with Conversation Phrases</h1>
-        <nav>Next Page</nav>
+        <h1>Learning English with Conversation Phrases</h1>        
     </header>
     <main>
         
@@ -550,9 +554,10 @@
                 myMusic.pause();
                 }
             </script>
-        </div>            
-        
+        </div>        
     </main>
+    <section><a href="page2.html" target="_self"><img src="imagens/seta-direita.png" alt="Botão à direita para próxima página"></a>
+    </section>
     <footer>
         Conteúdo desenvolvido por Tiago Silva de Souza by <a href="https://github.com/TouzaOne/" target="_blank" rel="external">TouzaOne&reg;</a>
     </footer>
