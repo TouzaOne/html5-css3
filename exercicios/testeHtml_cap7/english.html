@@ -103,6 +103,17 @@
 
     aside > p {
         text-align: right;
+        
+    }
+
+    aside > img:hover  {
+        color: coral;
+        content: 'Next Page';
+        display: block;        
+    }
+
+    aside > img.especial::after {
+        
     }
 
     footer {
@@ -555,7 +566,7 @@
             </script>
         </div>        
     </main>
-    <aside><p><a href="page2.html" target="_self"><img src="imagens/seta-direita.png" alt="Botão à direita para próxima página"></a></p>
+    <aside><p><a href="page2.html" target="_self"><img src="imagens/seta-direita.png" class="especial" alt="Botão à direita para próxima página"></a></p>
     </aside>
     <footer>
         Conteúdo desenvolvido por Tiago Silva de Souza by <a href="https://github.com/TouzaOne/" target="_blank" rel="external">TouzaOne&reg;</a>
