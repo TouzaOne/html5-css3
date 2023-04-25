@@ -91,8 +91,10 @@
                 var myMusic= document.getElementById("music");
                 function play() {
                 myMusic.play();
-                document.getElementById("button").src = "imagens/pngegg-pause.png";
-                
+                do {
+                    if (myMusic === pause()) break
+                    document.getElementById("button").src = "imagens/pngegg-pause.png";                    
+                } while (myMusic !== play())                
                 
                     function pause() {
                     myMusic.pause();
