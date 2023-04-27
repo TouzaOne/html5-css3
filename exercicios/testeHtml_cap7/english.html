@@ -99,33 +99,19 @@
         color: black;
         display: block;
         font-size: 1em;        
-    }
+    }   
 
     aside {
         display: inline-block;
-        margin-right: 40px;
         
     }
 
-    aside.primeiro > p {
-        width: 50px;
-        height: 50px;
-        text-align: right;        
-        padding: 35px 10px 0px 10px;        
-    }
-    
-    aside.segundo > p {        
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bolder;
-        font-size: 1.4em;
-        color: rgb(128, 0, 85);
-        text-align: right;        
-        border-radius: 10px;
-        width: 1320px;
-        height: 60px;
-        padding: 20px 15px 0px 0px;
-        
-    }
+    aside.central {
+        width: 1387px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.7em;
+        font-weight: bolder;        
+    }    
 
     footer {
         background-color: rgba(211, 211, 211, 0.945);
@@ -577,11 +563,16 @@
             </script>
         </div>        
     </main>
-    <aside class="segundo">
-        <p><mark>"The problem is not the problem. The problem is your attitude about the problem."</mark> <br>  <mark><em>Captain Jack Sparrow</em></mark></p>
+    <aside>
+        <p><a href="english.html" class="esquerda" target="_self"><img src="imagens/seta-esquerda.png" alt="Botão à esquerda para voltar à página anterior"></a>
+        </p>
     </aside>
-    <aside class="primeiro">
-        <p><a href="page2.html" target="_self"><img src="imagens/seta-direita.png" alt="Botão à direita para ir para próxima página"></a></p>        
+    <aside class="central">
+        <p><mark>"The problem is not the problem. The problem is your attitude about the problem."</mark><mark><em>Captain Jack Sparrow</em></mark></p>
+    </aside>
+    <aside>
+        <p><a href="page2.html" class="direita" target="_self"><img src="imagens/seta-direita.png" alt="Botão à direita para próxima página"></a>
+        </p>
     </aside>
     <footer>
         Conteúdo desenvolvido por Tiago Silva de Souza by <a href="https://github.com/TouzaOne/" target="_blank" rel="external">TouzaOne&reg;</a>
