@@ -102,20 +102,39 @@
     }
 
     aside {
-        display: inline-block;        
+        display: inline-block;
+        border: 1px solid white;        
+    }
+
+    aside.esquerda {
+        text-align: left;
+        position: absolute;
+        left: 60px;
     }
 
     aside.central {
-        min-width: 300px;
+        min-width: 190px;
         max-width: 1387px;        
         font-family: 'Courier New', Courier, monospace;
-        font-size: 1.7em;
+        font-size: 2em;
         font-weight: bolder;
-        text-align: center;                
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 134px 0px 134px;
+        position: relative;
+        left: 10%;
+        right: 10%;
+                        
+    }
+
+    aside.direita {
+        text-align: right;
+        position: absolute;
+        right: 60px;
     }
 
     aside > p {
-        text-align: center;        
+                
     }    
     
     footer {
@@ -567,16 +586,16 @@
             </script>
         </div>        
     </main>
-    <!--<aside class="esquerda">
-        <p>
+    <aside class="esquerda">
+        <p><a href="english.html" target="_self"><img src="imagens/seta-esquerda.png" alt="Botão à esquerda para voltar à página anterior"></a>
         </p>
-    </aside>-->
-    <aside class="central">
-        <p><a href="english.html" target="_self"><img src="imagens/seta-esquerda.png" alt="Botão à esquerda para voltar à página anterior"></a><mark style="background-color: rgba(220, 20, 60, 0.815);">"The problem is not the problem. The problem is your attitude about the problem."</mark> <br>  <mark style="background-color: rgba(220, 20, 60, 0.815)"><em>Captain Jack Sparrow</em></mark><a href="page4.html" target="_self"><img src="imagens/seta-direita.png" alt="Botão à direita para ir à próxima página"></a></p>
     </aside>
-    <!--<aside class="direita">
-        <p></p>
-    </aside>-->
+    <aside class="central">
+        <p><mark style="background-color: rgba(220, 20, 60, 0.815);">"The problem is not the problem. <br> The problem is your attitude about the problem."</mark> <br>  <mark style="background-color: rgba(220, 20, 60, 0.815)"><em>Captain Jack Sparrow</em></mark></p>
+    </aside>
+    <aside class="direita">
+        <p><a href="page4.html" target="_self"><img src="imagens/seta-direita.png" alt="Botão à direita para ir à próxima página"></a></p>
+    </aside>
     <footer>
         Conteúdo desenvolvido por Tiago Silva de Souza by <a href="https://github.com/TouzaOne/" target="_blank" rel="external">TouzaOne&reg;</a>
     </footer>
