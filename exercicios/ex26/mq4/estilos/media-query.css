@@ -29,7 +29,7 @@ Para telas grandes: de 1200px para cima;
 
     main::after {
         content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
-        text-decoration: dashed;
+        text-decoration: overline underline;
     }
 
     main h1 {
